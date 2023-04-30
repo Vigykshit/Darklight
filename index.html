@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="dark.css" rel="stylesheet"/>
+        <style>
+            body{
+                background-color:black;
+                color:white;
+            }
+            .mydark{
+                background-color:#ffffff;
+                /* color:white; */
+                background-image: url(https://th.bing.com/th/id/R.d056c7ebf5505e2a42b6f6914162ad04?rik=8qaegzuPIg3Ysg&riu=http%3a%2f%2fwww.hdwallpaper.nu%2fwp-content%2fuploads%2f2015%2f06%2f312642.jpg&ehk=Fg4Vq8PcJzZKnSH645QQ7Sxx9CoJ8ybk8Y3KwnUf7y8%3d&risl=&pid=ImgRaw&r=0);
+            }
+        </style>
+        <script>
+            function changeMode(){
+                let mybody = document.body;
+                mybody.classList.toggle('mydark')
+            }
+        </script>
+    </head>
+    <body>
+        
+        <h1 class="top1">!!THIS IS THE DEMO PAGE OF DARK/LIGHT MODE!!</h1>
+        <div class="top2">
+            <p>Don't look here</p>
+            <p>Look DOwn</p>
+        </div>
+        <div class="top3">
+            <p>Look Right =></p>
+        </div>
+        <div class="mode">
+            <p class="mode1">!!CLick Here!!   =></p>
+        <button onclick="changeMode()">Change Mode</button>
+        </div>
+    </body>
+</html>
